@@ -1,5 +1,4 @@
 def user_name(tweets):
-  from simple_tokenize import simple_tokenize
   from nltk.stem import PorterStemmer
   st = PorterStemmer()
 
@@ -30,7 +29,6 @@ def user_verified(tweets):
   reduceByKey(lambda x,y: x+y).sortBy(lambda x: x[1], ascending = False)
 
 def hashtags(tweets):
-  from simple_tokenize import simple_tokenize
   from nltk.stem import PorterStemmer
   st = PorterStemmer()
 
@@ -60,8 +58,6 @@ def hashtags(tweets):
   sortBy(lambda x: x[1],ascending = False)
 
 def source(tweets):
-  from simple_tokenize import simple_tokenize
-
   def cleaning(x):
     if x not in ["Twitter for Android","Twitter Web App","Twitter for iPhone"]:
       return "Others"
