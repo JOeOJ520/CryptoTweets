@@ -2,7 +2,7 @@
 ## Disclaimer
 This project is an improvement of the final project of upper year CS course "Data-Intensive Distributed Analytics" at the University of Waterloo by [Hugh Chung](https://github.com/hughyyyy) , [Joe Liang](https://github.com/JOeOJ520), and [Shawn Li](https://github.com/Shawn-Personal). The codes for setting up the Pyspark environments in this project are credited to [Ali Abedi](https://cs.uwaterloo.ca/~a2abedi/), the instructor in Winter 2022.
 
-Data in this project is from the Kaggle post "Bitcoin Tweets" under CC0: Public Domain license. The data includes tweets that have #Bitcoin and #btc hashtags from 2016. Additional information about this dataset can be found [here](https://www.kaggle.com/datasets/kaushiksuresh147/bitcoin-tweets).
+Data in this project is from the Kaggle post "Bitcoin Tweets" under CC0: Public Domain license. The data includes tweets that have #Bitcoin and #btc hashtags from 2016. It is a 13 dimension vector with 11804338 rows in total. Additional information about this dataset can be found [here](https://www.kaggle.com/datasets/kaushiksuresh147/bitcoin-tweets).
 
 ## Background
 [Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) becomes a popular topic in social media and the financial market. On 30 November 2020, bitcoin hit a new all-time high of $19,860. NLP Analysis on the posts related to cryptocurrency in social media could be an interest area of study.  
