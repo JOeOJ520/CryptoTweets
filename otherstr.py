@@ -1,5 +1,4 @@
 def user_name(tweets):
-  from CryptoTweets.simple_tokenize import *
   from nltk.stem import PorterStemmer
   st = PorterStemmer()
 
@@ -30,7 +29,6 @@ def user_verified(tweets):
   reduceByKey(lambda x,y: x+y).sortBy(lambda x: x[1], ascending = False)
 
 def hashtags(tweets):
-  from CryptoTweets.simple_tokenize import *
   from nltk.stem import PorterStemmer
   st = PorterStemmer()
 
