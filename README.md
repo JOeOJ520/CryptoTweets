@@ -18,8 +18,6 @@ CommonEnglishWord.txt: a list of stopwords in English for tokenization in Nature
 
 otherstr.py: Support functions for RDD calculations in cetegorical variables analysis.
 
-Bitcoin.csv: The orignal dataset.
-
 
 ## Required packages
 Recommend [Google Colab](https://colab.research.google.com/) to open or execuate the report. Installation of addtional requried pacakges are integerated in the Report.ipynb. 
