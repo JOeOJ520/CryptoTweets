@@ -3,7 +3,7 @@ def user_name(tweets):
   from nltk.stem import PorterStemmer
   st = PorterStemmer()
 
-  commonfile = open("CS431FP/CommonEnglishWord.txt", 'r')
+  commonfile = open("CryptoTweets/CommonEnglishWord.txt", 'r')
   commonword = [line.strip() for line in commonfile .readlines()][20]
 
   return tweets.select("user_name").rdd.flatMap(lambda x: simple_tokenize(x[0])).\
@@ -34,7 +34,7 @@ def hashtags(tweets):
   from nltk.stem import PorterStemmer
   st = PorterStemmer()
 
-  commonfile = open("CS431FP/CommonEnglishWord.txt", 'r')
+  commonfile = open("CryptoTweets/CommonEnglishWord.txt", 'r')
   commonword = [line.strip() for line in commonfile .readlines()][20]
 
   def cleaning(x):
